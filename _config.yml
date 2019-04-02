@@ -1,2 +1,3 @@
-name: Bill Hladik, Excel Geek
+name: Bill Hladik's Cord Cutting Wizard
 	markdown: kramdown
+	permalink: /blog/:year/:month/:day/:title
