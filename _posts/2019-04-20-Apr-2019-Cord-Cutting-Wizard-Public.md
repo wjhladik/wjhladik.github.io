@@ -14,4 +14,5 @@ date: 2019-04-20
       <li>Apr 20 - Sling - Added Add-On Package VSIN & CineMoi
       <li>Apr 20 - Sling - Confusion Paramount Network or Spike TV - logo image is Paramount but logo name is SpikeTV
       <li>Apr 20 - Sling - Removed SuperNe
+      <li>Apr 20 - DirecTV Now - Updated pricing and network content
     </ul>
