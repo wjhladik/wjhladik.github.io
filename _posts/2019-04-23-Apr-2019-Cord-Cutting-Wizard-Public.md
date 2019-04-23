@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apr 2019 - Cord Cutting Wizard - Public"
-date: 2019-04-20
+date: 2019-04-23
 ---
 <p>An update for April of 2019. <a href="/Apr 2019 - Cord Cutting Wizard - Public.xlsx">Apr 2019 - Cord Cutting Wizard - Public.xlsx</a>
   <p>
@@ -13,4 +13,5 @@ date: 2019-04-20
       <li>Apr 20 - Sling - Confusion Paramount Network or Spike TV - logo image is Paramount but logo name is SpikeTV
       <li>Apr 20 - Sling - Removed SuperNe
       <li>Apr 20 - Updated pricing and network content on all other services
+      <li>Apr 23 - Updated new Philo pricing and channel content, fixed some duplicate networks  
     </ul>
