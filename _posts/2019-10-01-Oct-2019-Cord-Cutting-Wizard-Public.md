@@ -7,4 +7,4 @@ date: 2019-10-01
   <p>
     <ul>
       <li>Oct 1 - starting off same as end of Sep
-    </ul>
+
