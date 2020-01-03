@@ -7,4 +7,4 @@ date: 2020-01-03
   <p>
     <ul>
       <li>Jan 1 - starting off same as end of Dec 2019
-      <li>Jan 3 - Fubo TV dropped several channels
+      <li>Jan 3 - Fubo TV dropped several channels but price stayed the same
