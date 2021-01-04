@@ -7,3 +7,4 @@ date: 2021-01-01
   <p>
     <ul>
       <li>Jan 1 - Starting off same as end of Dec 2020
+      <li>Jan 4 - Added T-Mobile's TVision Streaming Service for its T-Mobile and Sprint clients.
