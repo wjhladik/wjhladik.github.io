@@ -9,5 +9,4 @@ date: 2019-08-31
       <li>Aug 1 - starting off same as end of July
       <li>Aug 12 - minor updates and PS Vue had a web site change to cause rework
       <li>Aug 28 - Got rid of Sling International channels, changes to Sling and YouTube TV web sites causing maintenance headaches
-      <li>Aug 31 - <a href="/Jul 2019 to Aug 2019 - Cord Cutting Wizard - Change Log.xlsx">Jul 2019 to Aug 2019 - Cord Cutting Wizard - Change Log.xlsx</a>
-    </ul>
+      <li>Aug 31 - See change log for the database <a href="/CCW_Trend.xlsx">CCW_Trend.xlsx</a>
