@@ -9,4 +9,4 @@ date: 2020-09-30
       <li>Sep 1 - Starting off same as end of Aug 2020
       <li>Sep 9 - Updated YouTube TV and Sling TV with channel changes and add-ons
       <li>Sep 25 - Updated all services
-      <li>Sep 30 - End of month upodate. See change log for the database <a href="/Aug 2020 to Sep 2020 - Cord Cutting Wizard - Change Log.xlsx">Aug 2020 to Sep 2020 - Cord Cutting Wizard - Change Log.xlsx</a>
+      <li>Sep 30 - End of month upodate. See change log for the database <a href="/CCW_Trend.xlsx">CCW_Trend.xlsx</a>
