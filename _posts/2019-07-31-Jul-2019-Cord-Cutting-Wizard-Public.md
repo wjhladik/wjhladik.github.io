@@ -10,5 +10,4 @@ date: 2019-07-31
       <li>Jul 9 - updates to Sling and YouTube TV - also minor pricing updates for several services and add-on packages
       <li>Jul 16 - updates to channel content on several service providers
       <li>Jul 23 - minor content updates
-      <li>Jul 31 - <a href="/Jun 2019 to Jul 2019 - Cord Cutting Wizard - Change Log.xlsx">Jun 2019 to Jul 2019 - Cord Cutting Wizard - Change Log.xlsx</a>
-    </ul>
+      <li>Jul 31 - See change log for the database <a href="/CCW_Trend.xlsx">CCW_Trend.xlsx</a>
