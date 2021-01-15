@@ -14,5 +14,4 @@ date: 2019-04-26
       <li>Apr 20 - Sling - Removed SuperNe
       <li>Apr 20 - Updated pricing and network content on all other services
       <li>Apr 23 - Updated new Philo pricing and channel content, fixed some duplicate networks  
-      <li>Apr 26 - Updated channel content for YTTV and Fubo
-    </ul>
+      <li>Apr 26 - Updated channel content for YTTV and Fubo. See change log for the database <a href="/CCW_Trend.xlsx">CCW_Trend.xlsx</a>
