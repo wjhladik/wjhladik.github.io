@@ -10,5 +10,5 @@ date: 2020-07-31
       <li>Jul 1 - YouTube TV raised its price from $50/mo to $65/mo starting in August 2020. It added a handful of CBS/Viacom channels as well.
       <li>Jul 5 - Adjusting AT&T TV Now - changing HBO package to HBO Max
       <li>Jul 23 - Updated all services
-      <li>Jul 31 - End of month update of all services. See change log for the database <a href="/Jun 2020 to Jul 2020 - Cord Cutting Wizard - Change Log.xlsx">Jun 2020 to Jul 2020 - Cord Cutting Wizard - Change Log.xlsx</a>
+      <li>Jul 31 - End of month update of all services. See change log for the database <a href="/CCW_Trend.xlsx">CCW_Trend.xlsx</a>
         
