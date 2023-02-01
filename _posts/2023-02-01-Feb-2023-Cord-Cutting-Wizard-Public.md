@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Feb 2023  - Cord Cutting Wizard - Public"
+title: "Feb 2023 - Cord Cutting Wizard - Public"
 date: 2023-02-01
 ---
 <p>An update for Feb of 2023: <a href="/Feb 2023 - Cord Cutting Wizard - Public.xlsx">Feb 2023 - Cord Cutting Wizard - Public.xlsx</a>
