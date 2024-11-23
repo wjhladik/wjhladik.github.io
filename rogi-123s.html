@@ -12,8 +12,8 @@ title: Bill Hladik's rogi-123 Application in Excel (Rules of Golf Interactive)
 <script>
     // Function to determine the appropriate sheet based on device width
     function selectSheetBasedOnWidth() {
-        // Get the width of the device in pixels
-        const deviceWidth = Math.min(window.innerWidth, screen.width); // Use the smaller of window and screen widths
+        // Get the device width using window.innerWidth
+        const deviceWidth = window.innerWidth;
 
         // Debugging log to verify device width detection
         console.log(`Device Width Detected: ${deviceWidth}px`);
@@ -21,8 +21,9 @@ title: Bill Hladik's rogi-123 Application in Excel (Rules of Golf Interactive)
         // Define the base embed URL
         const baseURL = "https://onedrive.live.com/embed?resid=372B6EEDB8B80E88%2155397&authkey=%21AM6jJeHv0Ee2py4&em=2&AllowTyping=True&wdHideHeaders=True&wdDownloadButton=True";
 
-        // Choose the sheet based on width (adjust breakpoint values as needed)
-        const sheet = deviceWidth <= 768 ? "M-Display" : "Display"; // Use 768px as the breakpoint
+        // Choose the sheet based on width
+        // Adjust breakpoint if necessary based on tablet sizes (default: 768px)
+        const sheet = deviceWidth <= 768 ? "M-Display" : "Display";
 
         // Debugging log to verify selected sheet
         console.log(`Selected Sheet: ${sheet}`);
@@ -32,14 +33,9 @@ title: Bill Hladik's rogi-123 Application in Excel (Rules of Golf Interactive)
 
         // Update the iframe src attribute
         const iframe = document.getElementById("excel-iframe");
-        if (iframe.src !== embedURL) {
-            iframe.src = embedURL; // Set src only if it's different to prevent unnecessary reloads
-        }
+        iframe.src = embedURL; // Directly set the source based on width
     }
 
     // Call the function on page load
     selectSheetBasedOnWidth();
-
-    // Optional: Update the sheet dynamically on window resize
-    window.addEventListener("resize", selectSheetBasedOnWidth);
 </script>
