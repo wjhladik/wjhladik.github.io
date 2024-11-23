@@ -12,20 +12,29 @@ title: Bill Hladik's rogi-123 Application in Excel (Rules of Golf Interactive)
 <script>
     // Function to determine the appropriate sheet based on device width
     function selectSheetBasedOnWidth() {
-        // Get the width of the device
-        const deviceWidth = window.innerWidth;
+        // Get the width of the device in pixels
+        const deviceWidth = Math.min(window.innerWidth, screen.width); // Use the smaller of window and screen widths
+
+        // Debugging log to verify device width detection
+        console.log(`Device Width Detected: ${deviceWidth}px`);
 
         // Define the base embed URL
         const baseURL = "https://onedrive.live.com/embed?resid=372B6EEDB8B80E88%2155397&authkey=%21AM6jJeHv0Ee2py4&em=2&AllowTyping=True&wdHideHeaders=True&wdDownloadButton=True";
 
-        // Choose the sheet based on width (adjust breakpoint as needed)
-        const sheet = deviceWidth <= 768 ? "M-Display" : "Display"; // 768px as breakpoint for tablets and smaller devices
+        // Choose the sheet based on width (adjust breakpoint values as needed)
+        const sheet = deviceWidth <= 768 ? "M-Display" : "Display"; // Use 768px as the breakpoint
+
+        // Debugging log to verify selected sheet
+        console.log(`Selected Sheet: ${sheet}`);
 
         // Construct the full URL with the selected sheet
         const embedURL = `${baseURL}&ActiveCell='${sheet}'!A1`;
 
         // Update the iframe src attribute
-        document.getElementById("excel-iframe").src = embedURL;
+        const iframe = document.getElementById("excel-iframe");
+        if (iframe.src !== embedURL) {
+            iframe.src = embedURL; // Set src only if it's different to prevent unnecessary reloads
+        }
     }
 
     // Call the function on page load
@@ -34,4 +43,3 @@ title: Bill Hladik's rogi-123 Application in Excel (Rules of Golf Interactive)
     // Optional: Update the sheet dynamically on window resize
     window.addEventListener("resize", selectSheetBasedOnWidth);
 </script>
-
