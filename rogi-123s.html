@@ -1,10 +1,37 @@
 ---
 title: Bill Hladik's rogi-123 Application in Excel (Rules of Golf Interactive)
 ---
-<div style="width: 100%; height: 95vh; overflow: hidden; position: relative;"> <!-- Set height to fit the viewport -->
+<div id="excel-container" style="width: 100%; height: 95vh; overflow: hidden; position: relative;">
     <iframe 
-        src="https://onedrive.live.com/embed?resid=372B6EEDB8B80E88%2155397&authkey=%21AM6jJeHv0Ee2py4&em=2&AllowTyping=True&ActiveCell='M-Display'!A1&wdHideHeaders=True&wdDownloadButton=True" 
+        id="excel-iframe" 
         style="width: 100%; height: 100%; border: none;" 
         allowfullscreen>
     </iframe>
 </div>
+
+<script>
+    // Function to determine the appropriate sheet based on device width
+    function selectSheetBasedOnWidth() {
+        // Get the width of the device
+        const deviceWidth = window.innerWidth;
+
+        // Define the base embed URL
+        const baseURL = "https://onedrive.live.com/embed?resid=372B6EEDB8B80E88%2155397&authkey=%21AM6jJeHv0Ee2py4&em=2&AllowTyping=True&wdHideHeaders=True&wdDownloadButton=True";
+
+        // Choose the sheet based on width (adjust breakpoint as needed)
+        const sheet = deviceWidth <= 768 ? "M-Display" : "Display"; // 768px as breakpoint for tablets and smaller devices
+
+        // Construct the full URL with the selected sheet
+        const embedURL = `${baseURL}&ActiveCell='${sheet}'!A1`;
+
+        // Update the iframe src attribute
+        document.getElementById("excel-iframe").src = embedURL;
+    }
+
+    // Call the function on page load
+    selectSheetBasedOnWidth();
+
+    // Optional: Update the sheet dynamically on window resize
+    window.addEventListener("resize", selectSheetBasedOnWidth);
+</script>
+
