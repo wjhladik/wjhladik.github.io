@@ -1,8 +1,34 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<title>Redirecting...</title>
-<link rel="canonical" href="https://onedrive.live.com/embed?resid=372B6EEDB8B80E88%2155998&authkey=%21ABxExU0tCuP8Szs&em=2&AllowTyping=True&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&wdHideSheetTabs=True">
-<meta http-equiv="refresh" content="0; url=https://onedrive.live.com/embed?resid=372B6EEDB8B80E88%2155998&authkey=%21ABxExU0tCuP8Szs&em=2&AllowTyping=True&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&wdHideSheetTabs=True">
-<h1>Redirecting...</h1>
-<a href="https://onedrive.live.com/embed?resid=372B6EEDB8B80E88%2155998&authkey=%21ABxExU0tCuP8Szs&em=2&AllowTyping=True&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&wdHideSheetTabs=True">Click here if you are not redirected.</a>
-<script>location="https://onedrive.live.com/embed?resid=372B6EEDB8B80E88%2155998&authkey=%21ABxExU0tCuP8Szs&em=2&AllowTyping=True&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&wdHideSheetTabs=True"</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Opening Excel Tool...</title>
+    <script>
+        /** * 1. PASTE THE BASE URL BELOW (everything up to the first '?' or '&')
+         **/
+        const baseUrl = "https://1drv.ms/x/c/372b6eedb8b80e88/UQSIDri47W4rIIA3vtoAAAAAABxExU0tCuP8Szs";
+
+        /** * 2. DEFINE YOUR SETTINGS (Edit once here to change behavior for all files using this template)
+         **/
+        const settings = "?em=2" +
+                         "&wdAllowInteractivity=True" +
+                         "&AllowTyping=True" +
+                         "&wdHideGridlines=True" +
+                         "&wdDownloadButton=True";
+
+        const finalUrl = baseUrl + settings;
+
+        // Execute Redirect
+        window.location.replace(finalUrl);
+    </script>
+</head>
+<body style="font-family: sans-serif; text-align: center; padding-top: 50px;">
+    <p>Redirecting you to the Excel tool...</p>
+    <p>If the page does not load, <a id="manualLink" href="#">click here to open manually</a>.</p>
+
+    <script>
+        // Update the fallback link
+        document.getElementById('manualLink').href = finalUrl;
+    </script>
+</body>
+</html>
